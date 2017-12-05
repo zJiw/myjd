@@ -21,7 +21,7 @@ public class ProductsController {
 	@RequestMapping("git")
 	public String showGit(){
 		System.out.println("lqx是小狗");
-		System.out.println("lqx是小猪");
+		System.out.println("lqx是好人");
 		return "git";
 	}
 	
