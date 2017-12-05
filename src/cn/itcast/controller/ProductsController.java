@@ -1,5 +1,6 @@
 package cn.itcast.controller;
 
+import org.apache.solr.cloud.SyncStrategy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -22,6 +23,7 @@ public class ProductsController {
 	public String showGit(){
 		System.out.println("lqx是小狗");
 		System.out.println("lqx是好人");
+		System.out.println("在issu99分支上，开发新的业务代码");
 		return "git";
 	}
 	
