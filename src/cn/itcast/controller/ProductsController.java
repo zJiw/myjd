@@ -16,6 +16,15 @@ public class ProductsController {
 	private ProductsService productsService;
 	
 	/**
+	 * 测试git使用
+	 */
+	@RequestMapping("git")
+	public String showGit(){
+		System.out.println("lqx是小狗");
+		return "git";
+	}
+	
+	/**
 	 * 需求:跳转到商品搜索列表页面product_list
 	 * 参数:String queryString,String catalog_name,String price,Integer page,Integer rows,String sort,Model model
 	 */
